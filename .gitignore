@@ -1,1 +1,3 @@
 pic/archive/
+dataset/*.gz
+dataset/*.pkl
