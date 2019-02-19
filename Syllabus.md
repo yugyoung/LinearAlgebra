@@ -1,16 +1,24 @@
 # Linear Algebra(SE201) Syllabus
 
-## Instructor
+## Basic Information
+
+### Instructor
 
 * Name: **Hyosang Kang**
-* Email: [hyosang@dgist.ac.kr]
-* Class Room: (Lecture) E7-L22, (Recitation) E3-318
-* Office: Consillience Hall(E7) G11
-* Class Hours: (Lecture) Mon, Thr 9:00 - 10:30 (Recitation) Thr 15:00 - 16:00
+* Email: hyosang@dgist.ac.kr
+* Office: Consilience Hall(E7) G11
 * Office Hours: Mon 10:30 - 12:00
 * Tel: 053-785-6640
-* Web: [http://klein.dgist.ac.kr]
-* GitHub: [https://github.com/HyosangKang]
+* Web: http://klein.dgist.ac.kr (This website contains previous exams I thought in past years. Since it's my first time to teach Linear Algebra, there is no exam for Linear Algebra.)
+
+### Class Information
+* Class Hours: 
+  * (Lecture) Mon, Thr 9:00 - 10:30 
+  * (Recitation) Thr 15:00 - 16:00
+* Class Room:
+  * (Lecture) E7-L22
+  * (Recitation) Official room is E3-318, but in practice we may use other rooms (which will be announce during the class)
+* GitHub: https://github.com/HyosangKang (Contains important materials for lecture and recitation. Note that we also use [LMS](http://lms.dgist.ac.kr).)
 
 ## Course Description
 This is an introductory course on linear algebra.
@@ -49,7 +57,7 @@ The grades are based on two exams(midterm and final), homeworks, research projec
 * Project (15\%)
 * Class participation (10\%)
 
-he table below shows the schematic of the final grade. If the total score is greater than or equal to $90$, then the final grade is $A+$. If the total score is strictly less than $90$ and greater than or equal to $80$, the final grade will be $A0$, and so on.
+he table below shows the schematic of the final grade. If the total score is greater than or equal to 90, then the final grade is A+. If the total score is strictly less than 90 and greater than or equal to 80, the final grade will be A0, and so on.
 
 | Total Score | 90 | 80 | 75 | 65 | 55 | 50 | 40 | 30 | 25 | 15 | 5  | 0  |
 | ----------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
@@ -81,7 +89,6 @@ Based on 5-point scoring system, each question will be graded by the following s
 * (0 point) Students attempt to use completely wrong idea and false statement. Solution contains no logical statement at all.
 
 ## Homework
-
 There will be 9 homeworks throughout the semester.
 The homework consists of mathematical proof and computation, as well as Python programming exercises.
 The homework should be submitted through [LMS](http://lms.dgist.ac.kr).
@@ -93,48 +100,38 @@ If you have not used such apps, I recommend using:
 * [Adobe Rader](https://play.google.com/store/apps/details?id=com.adobe.reader)
 * [Adobe Scan](https://play.google.com/store/apps/details?id=com.adobe.scan.android)
 
-Due dates are written in the *Class Schedule* below. Deadlines are 23:59 of each due date. (1 minute earlier than the midnight!) Due to the traffic, you must upload your work 
-When the homework is submitted late, 50\% of the total points will be deducted per day. (No exception!)
-This means that if you late by two days, your homework will not be graded.
+Due dates are written in the *Class Schedule* below. Deadlines are 23:59 of each due date. (1 minute earlier than the midnight!) Due to the internet traffic, you must start upload your homework at least 10 minute before midnight. When the homework is submitted late, 50\% of the total points will be deducted per day. There is no exception on late policy. Your homework will be graded by 0/1/2 scales. 2 points for submitting homework on time, 1 point for less than 24 hours late, and 0 point for missing or more than 24 hours late homework.
 
-\subsection*{Project}
+Doing your homework by yourself is extremely important. By doing homework problems, you will re-master the materials covered in class by lecture and recitation sessions. You will be asked to write and solve questions covered in homework too. Thus an act of cheating, copying, and plagiarism in homework assignment will lead to failing the course. 
 
-Each student will initiate a project on NLP individually or within a group.
-Each group must choose their own subject of the research, which must be original.
-Students must use Python. (No other tools are allowed.)
 
-The evaluation is based on presentation.
-During the 10-minute presentation, students must explain the research subject, questions and problems, and methods they used for solving the problem.
+## Project
+During the semesetr, each student will initiate a project on NLP *individually or within a group* using `word2vec`. 
+Since it is a tool for categorizing words with respec to the meanings of the words, the title of your work should be
+
+> Analysis on Word Vectors in `...`
+
+The `...` in the title can be a database (such as wikipedia), literatures (such as 'Pride and Prejudice'), or a collection of literatures (such as 'Shakespeare'). **The context must be in English.** (We will use the package `gensim`, which is optimized for English words.) You must choose
+the context which you want to analyse the word within, and the type of analysis. For example, the following research could be done:
+* (Title) Analysis on Word Vectors in `American Dramas in '90s and '00s.'
+* (Abstract) We compare the most commonly used words in American Dramas in '90s and '00s, and how the meaning of the words have been changed during the decade.   
+
+Each group (or individual) must choose their own subject of the research and use *Python* language. (No other programming languages are allowed.)
+
+Your result will be evaluated by 1-page report ~~10-minute presentation~~ at the end of semester. At the end of semester, I will select 12 exemplary results and give opportunity to make a 10-minute presentations. 
+In the report, you must explain your research topic, research questions, and methods they used for solving the problem.
 The following is the grading scheme.
-	\begin{itemize}
-	\item (Originality) The work must contains an original interpretation / conclusion.
-	\item (Effectiveness) The research have an impact to other research area or real life. 
-	\item (Mathematics) The plan and methods of research must be logical and based on concrete mathematical theories and models.
-	\end{itemize}
-%
-%Each student must write his/her own final report.
-%The class will show no mercy on plagiarism.
-%Even though the project is done by a group, each student have different viewpoint on the same subject.
-%The final report must contains the original idea and observation on the research subject, as well as detail explanation which could be omitted in the presentation.
-%The report must contain clear references on every fact used in the report.
-%The following is the grading scheme.
-%	\begin{itemize}
-%		\item (Amount) The report must contain detail of the work, including backgrounds and progress. The report must be the level of students who took the class in linear algebra.
-%		\item (Originality) The report must contain author's own idea and interpretation. 
-%		\item (Structure) The report must be a scientific writing. Any facts from book or website used in the report must be followed by the reference.
-%	\end{itemize}
+* (Originality) The work must contains an original interpretation / conclusion.
+* (Effectiveness) The research have an impact to other research area or real life. 
+* (Mathematics) The plan and methods of research must be logical and based on concrete mathematical theories and models.
 
-\subsection*{Class Participation}
-
+## Class Participation
 The class participation is evaluated by number attendances in class.
 Each time a student misses, or late a class, 1\% of the grade will be lowered.
-\textbf{If you miss or late to class more than 10 times, you will fail the course.}
+**If you miss or late to class more than 10 times, you will fail the course.**
 For exemption, you must provide an official documents (such as a doctor's note, or an organization's official letter, etc)
 
-\bigskip
-
-\section*{Class Schedule}
-
+## Class Schedule
 There are two 75-minute lectures and a 50-minute recitation session each week. 
 In the lecture, we will learn mathematical backgrounds on linear algebra.
 In recitation session, we will learn python programming and backgrounds on NLP. 
@@ -142,124 +139,90 @@ You are expected to be well-prepared before attending the class.
 The lecture will be delivered in both English and Korean. 
 The first half of the lecture will be delivered in English and recorded. 
 The second half of the lecture will be delivered in Korean and will not be recorded.
-Below is the weekly schedule of the class, but it is subject to change. 
+Below is the weekly schedule of the class, but it is subject to change. (Numbers in parenthesis are sections of the textbook.)
 
-\SetDate[18/02/2019]
-\week{Week 01} 
-\begin{itemize}
-\item (Lecture) Introduction to vectors and linear equations, elimination by matrices ($\S1.1$ -- $\S2.3$)
-\item (Recitation) Introduction to Python programming (Installing Python IDE)
-\end{itemize}
+* Week 01 (19/2/25 - 19/3/1)
+  * (Lecture) Introduction to vectors and linear equations, elimination by matrices (1.1 - 2.3)
+  * (Recitation) Introduction to Python programming (Installing Python IDE)
 
-\week{Week 02} 
-\begin{itemize}
-\item (Lecture) Rules for matrix operations, inverse matrices ($\S2.4$ -- $\S2.5$)
-\item (Recitation) Introduction to Python  package \texttt{numpy}, \texttt{matplotlib}
-\end{itemize}
+* Week 02 (19/3/4 - 19/3/8) 
+  * (Lecture) Rules for matrix operations, inverse matrices (2.4 - 2.5)
+  * (Recitation) Introduction to Python  package `numpy`, `matplotlib`
 
-\week{Week 03} 
-\begin{itemize}
-\item (Lecture) LU decomposition, transpose and permutations ($\S2.6$ -- $\S2.7$)
-\item (Recitation) Computing matrix algebra in Python 
-\item \textbf{Homework 1 due 3/15}
-\end{itemize}
+* Week 03 (19/3/11 - 19/3/15)
+  * (Lecture) LU decomposition, transpose and permutations (2.6 - 2.7)
+  * (Recitation) Computing matrix algebra in Python 
+  * **Homework 1 due 3/15**
 
-\week{Week 04} 
-\begin{itemize} 
-\item (Lecture) Spaces of vectors, the null space ($\S3.1$ -- $\S3.2$)
-\item (Recitation) File IO, image, word processings in Python
-\item \textbf{Homework 2 due 3/22}
-\end{itemize}
+* Week 04 (19/3/18 - 19/3/22)
+  * (Lecture) Spaces of vectors, the null space (3.1 - 3.2)
+  * (Recitation) File IO, image, word processings in Python
+  * **Homework 2 due 3/22**
 
-\week{Week 05} 
-\begin{itemize}
-\item (Lecture) The rank of matrix, the complete solution of linear equations ($\S3.3$ -- $\S3.4$)
-\item (Recitation) Introduction to neural network and machine learning
-\item \textbf{Homework 3 due 3/29}
-\end{itemize}
+* Week 05 (19/3/25 - 19/3/29)
+  * (Lecture) The rank of matrix, the complete solution of linear equations (3.3 - 3.4)
+  * (Recitation) Introduction to neural network and machine learning
+  * **Homework 3 due 3/29**
 
-\week{Week 06} 
-\begin{itemize}
-\item (Lecture) Independence, basis, dimension, and the four subspaces ($\S3.5$ -- $\S3.6$)
-\item (Recitation) Introduction to NLP: \textbf{word2vec}
-\item \textbf{Homework 4 due 4/5}
-\end{itemize}
+* Week 06 (19/4/1 - 19/4/5)
+  * (Lecture) Independence, basis, dimension, and the four subspaces (3.5 - 3.6)
+  * (Recitation) Introduction to NLP: `word2vec`
+  * **Homework 4 due 4/5**
+  
+* Week 07 (19/4/8 - 19/4/12)
+  * (Lecture) Orthogonality, projections, least squares approximations (4.1 - 4.3)
+  * (Recitation) Introduction to Python package `gensim`
 
-\week{Week 07} 
-\begin{itemize}
-\item (Lecture) Orthogonality, projections, least squares approximations ($\S4.1$ -- $\S4.3$)
-\item (Recitation) Introduction to Python package \texttt{gensim}
-\end{itemize}
+* Week 08 **Midterm Exam**
 
-\week{Week 08} \textbf{Midterm Exam}
+* Week 09 (19/4/22 - 19/4/26)
+  * (Lecture) Orthogonal basis, Gram--Schmidt (4.4)
+  * (Recitation) Perceptrons, activation functions
 
-\week{Week 09} 
-\begin{itemize}
-\item (Lecture) Orthogonal basis, Gram--Schmidt ($\S4.4$)
-\item (Recitation) Perceptrons, activation functions
-\end{itemize}
+* Week 10 (19/4/29 - 19/5/3)
+  * (Lecture) Determinants, permutation, and cofactors (5.1 - 5.2)
+  * (Recitation) Layers, forward propagation
+  * **Homework 5 due 5/3**
 
-\week{Week 10} 
-\begin{itemize}
-\item (Lecture) Determinants, permutation, and cofactors ($\S5.1$ -- $\S5.2$)
-\item (Recitation) Layers, foward propagation
-\item \textbf{Homework 5 due 5/3}
-\end{itemize}
+* Week 11 (19/5/6 - 19/5/10) *(Substitute holiday on 5/6)* 
+  * (Lecture) Cramer's rule, inverse, and volume (5.3)
+  * (Recitation) Machine learning by gradient descent method
+  * **Homework 6 due 5/10**
 
-\week{Week 11} \textbf{Substitute holiday on 5/6} 
-\begin{itemize}
-\item (Lecture) Cramer's rule, inverse, and volume ($\S5.3$)
-\item (Recitation) Machine learning by gradient descent method
-\item \textbf{Homework 6 due 5/10}
-\end{itemize}
+* Week 12 (19/5/13 - 19/5/17)
+  * (Lecture) Eigenvalues, diagonalization (6.1 - 6.2)
+  * (Recitation) Constructing neural network model with MNIST dataset
+  * **Homework 7 due 5/17**
 
-\week{Week 12} 
-\begin{itemize}
-\item (Lecture) Eigenvalues, diagonalization ($\S6.1$ -- $\S6.2$)
-\item (Recitation) Constructing neural network model with MNIST dataset
-\item \textbf{Homework 7 due 5/17}
-\end{itemize}
+* Week 13 (19/5/20 - 19/5/24)
+  * (Lecture) Symmetric matrices, positive-definite matrices, and similar matrices (6.4 - 6.6)
+  * (Recitation) Project presentation I
+  * **Homework 8 due 5/24**
 
-\week{Week 13} 
-\begin{itemize}
-\item (Lecture) Symmetric matrices, positive-definite matrices, and similar matrices ($\S6.4$ -- $\S6.6$)
-\item (Recitation) Project presentation I
-\item \textbf{Homework 8 due 5/24}
-\end{itemize}
+* Week 14 (19/5/27 - 19/5/31)
+  * (Lecture) Singular value decomposition (SVD) (6.7)
+  * (Recitation) Project presentation II
+  * **Homework 9 due 5/31**
 
-\week{Week 14} 
-\begin{itemize}
-\item (Lecture) Singular value decomposition (SVD) ($\S6.7$)
-\item (Recitation) Project presentation II
-\item \textbf{Homework 9 due 5/31}
-\end{itemize}
+* Week 15 (19/6/3 - 19/6/7) *(Memorial day on 6/6)*
+  * (Lecture) Principal component analysis (PCA)
+  * (Recitation) Project presentation III
 
-\week{Week 15} \textbf{Memorial day on 6/6}
-\begin{itemize}
-\item (Lecture) Principal component analysis (PCA)
-\item (Recitation) Project presentation III
-\end{itemize}
+* Week 16 **Final Exam**
 
-\week{Week 16}  \textbf{Final Exam}
+## Course Policies
 
-\bigskip
-
-\section*{Course Policies}
-
-\subsection*{Academic Integrity}
-
+### Academic Integrity
 You are expected to maintain the highest honor of their action during the semester.
 You are also expected to show respects to instructor, class-assistants, and fellow students. 
 If you shows following misconducts during the semester, you will fail the course.
-	\begin{itemize}
-	\item cheating in exam
-	\item plagiarism
-	\item forging an official documents
-	\end{itemize}
-In such cases, you will also be reported to the dean of academy for further disciplinary actions. 
+* cheating in exam
+* plagiarism
+* forging an official documents
 
-\subsection*{Missing Exams}
+In the event of above, you will also be reported to the dean of academy for further disciplinary actions. 
 
+### Missing Exams
 If you miss midterm or final, you will fail the course. 
 In the case of emergency such as hospitalization or attending a family funeral, you must report to the instructor immediately, so that you can get a make-up exam without penalty.
 
