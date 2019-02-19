@@ -2,81 +2,61 @@
 
 ## Instructor
 
-* Name: Hyosang Kang
-* Email: hyosang@dgist.ac.kr
+* Name: **Hyosang Kang**
+* Email: [hyosang@dgist.ac.kr]
 * Class Room: (Lecture) E7-L22, (Recitation) E3-318
 * Office: Consillience Hall(E7) G11
 * Class Hours: (Lecture) Mon, Thr 9:00 - 10:30 (Recitation) Thr 15:00 - 16:00
-* Office Hours: Mon 10:30 - 12:00  & 
+* Office Hours: Mon 10:30 - 12:00
 * Tel: 053-785-6640
-* Web: [klein.dgist.ac.kr](http://klein.dgist.ac.kr)
-* GitHub: [github.com/HyosangKang](https://github.com/HyosangKang)
+* Web: [http://klein.dgist.ac.kr]
+* GitHub: [https://github.com/HyosangKang]
 
-\vspace{5 mm}
-
-\section*{Course Description}
+## Course Description
 This is an introductory course on linear algebra.
 Linear algebra studies systems of linear equations and properties of vectors and matrices, and is useful in natural science and engineering, economics, social science, and especially in machine learning and optimization.
 I will introduce basic concepts and properties in linear algebra and matrix theory,
-as well as how to compute matrix algebra by \textbf{Python programming}. 
-As an application, I will explain how neural network and \textbf{natural language processing}(NLP) works via \texttt{word2vec} algorithm.
-\bigskip
+as well as how to compute matrix algebra by *Python programming*. 
+As an application, I will explain how neural network and *natural language processing*(NLP) works via `word2vec` algorithm.
 
-
-\section*{Course Objectives}
+## Course Objectives
 This course expects all students to fully understand the material covered in the class. 
 At the end of class, successful students will
-	\begin{enumerate}
-		\item understand basic concepts in linear algebra;
-		\item have mathematical proficiency. That is, students are able to write and communicate mathematics in a higher level;
-		\item be able to use Python to compute matrix computation;
-		\item understand the neural network, and be able to construct a mathematical model using it;
-		\item be able to initiate their own researches on NLP.
-	\end{enumerate}
-\bigskip
+* understand basic concepts in linear algebra;
+* have mathematical proficiency. That is, students are able to write and communicate mathematics in a higher level;
+* be able to use Python to compute matrix computation;
+* understand the neural network, and be able to construct a mathematical model using it;
+* be able to initiate their own researches on NLP.
 
-
-\section*{Prerequisites and Texts}
+## Prerequisites and Texts
 There is no formal prerequisite for this course.
-However, it may help to understand contents covered in \emph{Differential Equations and Applied Calculus}(SE101) and  \emph{Multivariable Caclulus}(SE102).
+However, it may help to understand contents covered in *Differential Equations and Applied Calculus*(SE101) and *Multivariable Caclulus*(SE102).
 Our official textbook is 
-	\begin{center}
-		\textbf{Strang, \emph{Introduction to Linear Algebra}, (4th edition or higher)}\\
-	\end{center}
+
+> Strang, [*Linear Algebra and Its Applications* (International Student Edition)](http://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=ENG&mallGb=ENG&barcode=9780534422004&orderClick=LAI&Kc=)
+
 Useful references are 
-	\begin{enumerate}
-		\item Lay, \emph{Linear Algebra and Its Applications}, 5th Edition
-		\item 히라오카 카즈유키, 호리 켄, \emph{프로그래머를 위한 선형대수}
-		\item 사이토 고키, \emph{밑바닥부터 시작하는 딥러닝(Deep Learning from Scratch)}
-	\end{enumerate}
-
-\bigskip
+* Lay, [*Linear Algebra and Its Applications*](http://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=ENG&mallGb=ENG&barcode=9781292092232&orderClick=LAI&Kc=), 5th Edition
+* 히라오카 카즈유키, 호리 겐, [*프로그래머를 위한 선형대수*](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791160501308&orderClick=LAG&Kc=)
+* 사이토 고키, [*밑바닥부터 시작하는 딥러닝(Deep Learning from Scratch)*](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788968484636&orderClick=LIS&Kc=)
 
 
-\section*{Assessments and Grading}
-
+## Assessments and Grading
 The grades are based on two exams(midterm and final), homeworks, research project on NLP, and class participation. Percentages are the following.
-	\begin{itemize}
-		\item Midterm (30\%)
-		\item Final (30\%)
-		\item Homeworks (15\%)
-		\item Project (15\%)
-		\item Class participation (10\%)
-	\end{itemize}
-The table below shows the schematic of the final grade. If the total score is greater than or equal to $90$, then the final grade is $A+$. If the total score is strictly less than $90$ and greater than or equal to $80$, the final grade will be $A0$, and so on.
-\begin{center}
-    \begin{tabular}{c | c c c c c c c c c c c c}
-         \hline
-             Total Score 	& $90$			& $80$  		& $75$  		& $65$  		& $55$  		& $50$ 	
-             & $40$ 		& $30$ 			& $25$ 			& $15$ 			& $5$ 			& $0$ \\ \hline
-             Grade 			& A+				& A0 			& A- 				& B+ 			& B0 			& B- 
-             & C+ 			& C0 			& C- 				& D+ 			& D0 			& D- 			\\ 
-         \hline
-    \end{tabular}
-\end{center}
+* Midterm (30\%)
+* Final (30\%)
+* Homeworks (15\%)
+* Project (15\%)
+* Class participation (10\%)
 
-\subsection*{Exams}
+he table below shows the schematic of the final grade. If the total score is greater than or equal to $90$, then the final grade is $A+$. If the total score is strictly less than $90$ and greater than or equal to $80$, the final grade will be $A0$, and so on.
 
+| Total Score | 90 | 80 | 75 | 65 | 55 | 50 | 40 | 30 | 25 | 15 | 5  | 0  |
+| ----------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| Grade       | A+ | A0 | A- | B+ | B0 | B- | C+ | C0 | C- | D+ | D0 | D- |
+
+
+## Exams
 There are two exams in this course.
 Midterm and final will be on 8th and 16th weeks respectively. 
 Exact date,time, and place for exams will be announced 1-2 weeks ahead.
@@ -90,25 +70,31 @@ There might be a questions which asks students to collaborate with each others d
 In such circumstance, specific instruction will be provided in the exam.
 
 Midterm and Final are the crucial components for the final grade.
-\textbf{If you do not take midterm or final, you will fail the course}. 
+*If you do not take midterm or final, you will fail the course*. 
 Based on 5-point scoring system, each question will be graded by the following scheme.
-	\begin{itemize}
-		\item (5 points) The solution is written by complete sentences and delivers correct answer with flawless mathematical ideas. The solution contains detail explanation of the how the answer is obtained.
-		\item (4 points) The solution is written by complete sentences and uses correct ideas and theorems. However, it misses a few detail or makes small mistakes. The solution may contain some flaw or logical gaps, which are not crucial part of the answer.
-		\item (3 points) Student explains their work in detail, but uses a wrong/incorrect idea/theory. Or they come up with partially wrong answer. Otherwise, the conclusion of the solution is correct, but it has no detail explanations.
-		\item (2 points) There is no detail explanation, nor conclusion/answer in the solution. Students vaguely show their ideas, which are not entirely wrong.
-		\item (1 point) The solution contains no complete sentences, or logical explanations. However, it contains a partially correct statement of the theorems relevant to the problem.
-		\item (0 point) Students attempt to use completely wrong idea and false statement. Solution contains no logical statement at all.
-	\end{itemize}
-	
-\subsection*{Homework}
 
-There will be 9 homeworks.
+* (5 points) The solution is written by complete sentences and delivers correct answer with flawless mathematical ideas. The solution contains detail explanation of the how the answer is obtained.
+* (4 points) The solution is written by complete sentences and uses correct ideas and theorems. However, it misses a few detail or makes small mistakes. The solution may contain some flaw or logical gaps, which are not crucial part of the answer.
+* (3 points) Student explains their work in detail, but uses a wrong/incorrect idea/theory. Or they come up with partially wrong answer. Otherwise, the conclusion of the solution is correct, but it has no detail explanations.
+* (2 points) There is no detail explanation, nor conclusion/answer in the solution. Students vaguely show their ideas, which are not entirely wrong.
+* (1 point) The solution contains no complete sentences, or logical explanations. However, it contains a partially correct statement of the theorems relevant to the problem.
+* (0 point) Students attempt to use completely wrong idea and false statement. Solution contains no logical statement at all.
+
+## Homework
+
+There will be 9 homeworks throughout the semester.
 The homework consists of mathematical proof and computation, as well as Python programming exercises.
-The homework should be submitted through \href{http://lms.dgist.ac.kr}{LMS}.
-You must scan your work in pdf format and upload the file to designated website.
-Due dates are written in the ``Class Schedule'' below. Deadlines are 23:59 of each due date.
-When the homework is submitted late, 50\% of the total points will be deducted per day.
+The homework should be submitted through [LMS](http://lms.dgist.ac.kr).
+
+You must scan your work in pdf format and upload the pdf file to designated website.
+There are many apps for scanning document by your smart phone.
+If you have not used such apps, I recommend using: 
+
+* [Adobe Rader](https://play.google.com/store/apps/details?id=com.adobe.reader)
+* [Adobe Scan](https://play.google.com/store/apps/details?id=com.adobe.scan.android)
+
+Due dates are written in the *Class Schedule* below. Deadlines are 23:59 of each due date. (1 minute earlier than the midnight!) Due to the traffic, you must upload your work 
+When the homework is submitted late, 50\% of the total points will be deducted per day. (No exception!)
 This means that if you late by two days, your homework will not be graded.
 
 \subsection*{Project}
