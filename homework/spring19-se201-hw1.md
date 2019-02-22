@@ -25,7 +25,7 @@ Prove that the product of two lower triangular matrices is lower triangular.
 
 ### 2-2.
 
-Let $A = \begin{bmatrix} 1 & 1 & 0 \\ 4 & 6 & 0 \\ -2 & 2 0 \end{bmatrix}$. Find constants $a,b,c$ such that
+Let $A = \begin{bmatrix} 1 & 1 & 0 \\ 4 & 6 & 0 \\ -2 & 2 & 0 \end{bmatrix}$. Find constants $a,b,c$ such that
 
 $$E_{32}(a)E_{31}(b)E_{21}(c)A = U$$
 
