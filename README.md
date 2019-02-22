@@ -12,5 +12,5 @@ To view markdown file properly, install [this app](https://chrome.google.com/web
 * See [this folder](weekly_plan/) for the weekly plan.
 * Homework #01 is now update and due 19/3/15 23:59
   * Markdown file is [here](homework/spring19-se201-hw1.md) - fetch file and view on your local folder
-  * Notebook format is [here](homework/spring19-se201-hw1.ipynb) - readable on GitHub.com
+  * Notebook format is [here](homework/spring19-se201-hw1.ipynb) - readable on GitHub.com (SLOW!)
 To know your instructor better, please visit my [website](http://klein.dgist.ac.kr)
