@@ -141,8 +141,12 @@ The first half of the lecture will be delivered in English and recorded.
 The second half of the lecture will be delivered in Korean and will not be recorded.
 Below is the weekly schedule of the class, but it is subject to change. (Numbers in parenthesis are sections of the textbook.)
 
+The old schedule is based on Strang's Linear Algebra, rth Edition (USA version).
+We change the weekly schedule based on international version.
+
 * Week 01 (19/2/25 - 19/3/1)
-  * (Lecture) Introduction to vectors and linear equations, elimination by matrices (1.1 - 2.3)
+  * (Lecture) Matrices and gaussian elimination (1.1 - 1.6)
+  * ~~(Lecture) Introduction to vectors and linear equations, elimination by matrices (1.1 - 2.3)~~
   * (Recitation) Introduction to Python programming (Installing Python IDE)
 
 * Week 02 (19/3/4 - 19/3/8) 

@@ -1,11 +1,9 @@
 # Week 01
 
-
 * Period: 19/2/25 - 19/3/1
-* Lecture (1.1 - 2.3, skip 1.7)
+* Lecture
   * Introduction to vectors and linear equations
-  * Elimination by matrices
-  * Vectors and vector spaces
+  * Elimination method
 * Recitation
   * Introduction to Python programming.
   * Installing Python IDEs.
@@ -20,7 +18,7 @@
 * Split recitation classes
   * Check available time
 
-### Contents
+### Contents (1.1 - 1.4)
 
 * Notations
   * Define vector notations: tuple, column, or row representations.
@@ -39,13 +37,6 @@
     * **Q** Show that the multiple of two lower (or upper) triangular matrices is also lower (or upper) triangular.
   * Elementary row operations.
 
-* Inverse matrix
-  * Nonsingular system and inverse matrix.
-  * LU decomposition.
-    * **Q** Show that if $A$ is nonsingular, then there exists a permutation matrix $P$ such that $PA=LU$.
-  * Gauss-Jordon elimination.
-  * Working example: $A = \begin{bmatrix} 2 & 1 & 1 \\ 4 & -6 & 0 \\ -2 & 7 & 2 \end{bmatrix}$
-
 ### Timeline
 
 * (0 ~ 10 min) Syllabus
@@ -61,7 +52,41 @@
 * Check roster
 * Announce homework assignment #01
 
-### Contents
+### Contents (1.5 - 1.6)
+
+* Inverse matrix
+  * Nonsingular system and inverse matrix.
+  * LU decomposition.
+    * **Q** Show that if $A$ is nonsingular, then there exists a permutation matrix $P$ such that $PA=LU$.
+  * Gauss-Jordon elimination.
+  * Working example: $A = \begin{bmatrix} 2 & 1 & 1 \\ 4 & -6 & 0 \\ -2 & 7 & 2 \end{bmatrix}$
+
+### Timeline
+
+* (0 ~ 5 min) Review
+* (5 ~ 10 min) Questions, roster
+* (10 ~ 55 min) Lecture on contents (English)
+* (55 ~ 75 min) Discussion (Korean)
+
+# Week 02
+
+* Period: 19/3/4 - 19/3/8
+* Lecture
+  * Vectors and vector spaces
+  * Solving $Ax = b$
+  * Basis and dimensions
+* Recitation
+  * Python package `numpy`
+  * Python package `matplotlib`
+
+## Lecture 03 (19/3/4)
+
+### To Do
+
+* Review previous lecture
+* Check roster
+
+### Contents (2.1 - 2.2)
 
 * Vectors
   * Vector addition, scalar multiplications
@@ -75,6 +100,25 @@
   * Column space $C(R)$.
   * Null space $N(R)$ and null matrix.
     * **Q** Why is $N(R)$ a vector space?
+* Solving $Ax = b$ using the reduced form $R$.
+  * Working example: $A = \begin{bmatrix}1 & 3 & 3 & 2 \\ 2 & 6 & 9 & 7 \\ -1 & -3 & 3 & 4 \end{bmatrix}$, $b = \begin{bmatrix}1 \\ 5 \\ 5\end{bmatrix}$.
+
+### Timeline
+
+* (0 ~ 5 min) Review
+* (5 ~ 10 min) Questions, roster
+* (10 ~ 55 min) Lecture on contents (English)
+* (55 ~ 75 min) Discussion (Korean)
+
+## Lecture 04 (19/3/7)
+
+### To Do
+
+* Review previous lecture
+* Check roster
+
+### Contents (2.2 - 2.3)
+
 * Echelon form
   * Convert 
   $$A = \begin{bmatrix}1 & 3 & 3 & 2 \\ 2 & 6 & 9 & 7 \\ -1 & -3 & 3 & 4 \end{bmatrix}$$
@@ -101,3 +145,22 @@
 * (5 ~ 10 min) Questions, roster
 * (10 ~ 55 min) Lecture on contents (English)
 * (55 ~ 75 min) Discussion (Korean)
+
+
+# Lecture 
+
+## Lecture # ( / / )
+
+### To Do
+
+### Contents ( )
+
+### Timeline
+
+## Lecture # ( / / )
+
+### To Do
+
+### Contents ( )
+
+### Timeline
