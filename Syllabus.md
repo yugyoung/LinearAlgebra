@@ -41,7 +41,7 @@ There is no formal prerequisite for this course.
 However, it may help to understand contents covered in *Differential Equations and Applied Calculus*(SE101) and *Multivariable Caclulus*(SE102).
 Our official textbook is 
 
-> Strang, [*Linear Algebra and Its Applications* (International Student Edition)](http://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=ENG&mallGb=ENG&barcode=9780534422004&orderClick=LAI&Kc=)
+> Strang, [*Linear Algebra and Its Applications, 4th Edition* (International Student Edition)](http://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=ENG&mallGb=ENG&barcode=9780534422004&orderClick=LAI&Kc=)
 
 Useful references are 
 * Lay, [*Linear Algebra and Its Applications*](http://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=ENG&mallGb=ENG&barcode=9781292092232&orderClick=LAI&Kc=), 5th Edition
