@@ -150,66 +150,79 @@ We change the weekly schedule based on international version.
   * (Recitation) Introduction to Python programming (Installing Python IDE)
 
 * Week 02 (19/3/4 - 19/3/8) 
-  * (Lecture) Rules for matrix operations, inverse matrices (2.4 - 2.5)
-  * (Recitation) Introduction to Python  package `numpy`, `matplotlib`
+  * (Lecture) Vector spaces, solving linear equations, basis and dimensions (2.1 - 2.3)
+  * ~~(Lecture) Rules for matrix operations, inverse matrices (2.4 - 2.5)~~
+  * (Recitation) Introduction to Python package `numpy`, `matplotlib`
 
 * Week 03 (19/3/11 - 19/3/15)
-  * (Lecture) LU decomposition, transpose and permutations (2.6 - 2.7)
+  * (Lecture) Four fundamental subspaces, graphs and networkds (2.4 - 2.5)
+  * ~~(Lecture) LU decomposition, transpose and permutations (2.6 - 2.7)~~
   * (Recitation) Computing matrix algebra in Python 
   * **Homework 1 due 3/15**
 
 * Week 04 (19/3/18 - 19/3/22)
-  * (Lecture) Spaces of vectors, the null space (3.1 - 3.2)
+  * (Lecture) Orthogonality and projections (3.1 - 3.3)
+  * ~~(Lecture) Spaces of vectors, the null space (3.1 - 3.2)~~
   * (Recitation) File IO, image, word processings in Python
   * **Homework 2 due 3/22**
 
 * Week 05 (19/3/25 - 19/3/29)
-  * (Lecture) The rank of matrix, the complete solution of linear equations (3.3 - 3.4)
+  * (Lecture) Orthogonal basis, determinants (3.4 - 4.2)
+  * ~~(Lecture) The rank of matrix, the complete solution of linear equations (3.3 - 3.4)~~
   * (Recitation) Introduction to neural network and machine learning
   * **Homework 3 due 3/29**
 
 * Week 06 (19/4/1 - 19/4/5)
-  * (Lecture) Independence, basis, dimension, and the four subspaces (3.5 - 3.6)
+  * (Lecture) Formulas for determinants, applications (4.3 - 4.4)
+  * ~~(Lecture) Independence, basis, dimension, and the four subspaces (3.5 - 3.6)~~
   * (Recitation) Introduction to NLP: `word2vec`
   * **Homework 4 due 4/5**
   
 * Week 07 (19/4/8 - 19/4/12)
-  * (Lecture) Orthogonality, projections, least squares approximations (4.1 - 4.3)
+  * (Lecture) Eignevalues, diagonalizations (5.1 - 5.2)
+  * ~~(Lecture) Orthogonality, projections, least squares approximations (4.1 - 4.3)~~
   * (Recitation) Introduction to Python package `gensim`
 
 * Week 08 **Midterm Exam**
 
 * Week 09 (19/4/22 - 19/4/26)
-  * (Lecture) Orthogonal basis, Gram--Schmidt (4.4)
+  * (Lecture) Eigenvalues and difference / differential equations (5.3 - 5.4)
+  * ~~(Lecture) Orthogonal basis, Gram--Schmidt (4.4)~~
   * (Recitation) Perceptrons, activation functions
 
 * Week 10 (19/4/29 - 19/5/3)
-  * (Lecture) Determinants, permutation, and cofactors (5.1 - 5.2)
+  * (Lecture) Complex matrices, similarity transformations (5.5 - 5.6)
+  * ~~(Lecture) Determinants, permutation, and cofactors (5.1 - 5.2)~~
   * (Recitation) Layers, forward propagation
   * **Homework 5 due 5/3**
 
 * Week 11 (19/5/6 - 19/5/10) *(Substitute holiday on 5/6)* 
-  * (Lecture) Cramer's rule, inverse, and volume (5.3)
+  * (Lecture) Minima, maxima, and saddle points (6.1)
+  * ~~(Lecture) Cramer's rule, inverse, and volume (5.3)~~
   * (Recitation) Machine learning by gradient descent method
   * **Homework 6 due 5/10**
 
 * Week 12 (19/5/13 - 19/5/17)
-  * (Lecture) Eigenvalues, diagonalization (6.1 - 6.2)
+  * (Lecture) Positive definiteness, singular value decomposition (6.2 - 6.3)
+  * ~~(Lecture) Eigenvalues, diagonalization (6.1 - 6.2)~~
   * (Recitation) Constructing neural network model with MNIST dataset
   * **Homework 7 due 5/17**
 
 * Week 13 (19/5/20 - 19/5/24)
-  * (Lecture) Symmetric matrices, positive-definite matrices, and similar matrices (6.4 - 6.6)
+  * (Lecture) Minimum principles, matrix norm (6.4 - 7.2)
+  * ~~(Lecture) Symmetric matrices, positive-definite matrices, and similar matrices (6.4 - 6.6)~~
   * (Recitation) Project presentation I
   * **Homework 8 due 5/24**
 
 * Week 14 (19/5/27 - 19/5/31)
-  * (Lecture) Singular value decomposition (SVD) (6.7)
+  * (Lecture) Computing eignenvalues, iterative method (7.3 - 7.4)
+  * ~~(Lecture) Singular value decomposition (SVD) (6.7)~~
   * (Recitation) Project presentation II
   * **Homework 9 due 5/31**
 
 * Week 15 (19/6/3 - 19/6/7) *(Memorial day on 6/6)*
-  * (Lecture) Principal component analysis (PCA)
+  * (Lecture) The simplex method (8.2) (If time permits!)
+  * ~~(Lecture) Principal component analysis (PCA)~~
   * (Recitation) Project presentation III
 
 * Week 16 **Final Exam**
