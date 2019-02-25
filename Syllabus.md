@@ -9,7 +9,7 @@
 * Office: Consilience Hall(E7) G11
 * Office Hours: Mon 10:30 - 12:00
 * Tel: 053-785-6640
-* Web: http://klein.dgist.ac.kr (This website contains previous exams I thought in past years. Since it's my first time to teach Linear Algebra, there is no exam for Linear Algebra.)
+* Web: http://klein.dgist.ac.kr (This website contains previous exams I taught in past years. Since it's my first time to teach Linear Algebra, there is no exam for Linear Algebra. See the style of problems in 2018 SE101, SE102.)
 
 ### Class Information
 * Class Hours: 
@@ -57,7 +57,7 @@ The grades are based on two exams(midterm and final), homeworks, research projec
 * Project (15\%)
 * Class participation (10\%)
 
-he table below shows the schematic of the final grade. If the total score is greater than or equal to 90, then the final grade is A+. If the total score is strictly less than 90 and greater than or equal to 80, the final grade will be A0, and so on.
+The table below shows the schematic of the final grade. If the total score is greater than or equal to 90, then the final grade is A+. If the total score is strictly less than 90 and greater than or equal to 80, the final grade will be A0, and so on.
 
 | Total Score | 90 | 80 | 75 | 65 | 55 | 50 | 40 | 30 | 25 | 15 | 5  | 0  |
 | ----------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
