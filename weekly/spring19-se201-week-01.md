@@ -58,28 +58,36 @@
 
 * Review previous lecture
 * Check roster
+* Recitation announcement
 * Announce homework assignment #01
 
-### Contents (1.5 - 1.6)
+### Contents (1.5)
 
-* $LU$ (and $LDU$) decomposition.
-  * Definition: **Upper / lower triangular matrices, echelon form.** 
+* Elimination by matrix multiplication
+  * Example: 
+    $$A = \begin{bmatrix} 2 & 1 & 1 \\ 4 & -6 & 0 \\ -2 & 7 & 2 \end{bmatrix}$$
+  * Elemetary row operations $E_{ij}(c)$
+  * Upper / lower triangular matrices
     * **Q** Show that the multiple of two lower (or upper) triangular matrices is also lower (or upper) triangular.
-    * Example: 
-      $$A = \begin{bmatrix} 2 & 1 & 1 \\ 4 & -6 & 0 \\ -2 & 7 & 2 \end{bmatrix}$$
-  * Elementary row operations: $E_{ij}(c)$, $P_{ij}$
-   * Example:
-      $$A = \begin{bmatrix} 1 & 1 & 1 \\ 1 & 1 & 3 \\ 2 & 5 & 8 \end{bmatrix}$$
-    * **Q** Show that if $A$ is nonsingular, then there exists a permutation matrix $P$ such that $PA=LU$.
-  * Uniqueness: if $A = L_1DU_1 = L_2DU_2$, then $L_1 = L_2$ and $U_1 = U_2$.
+  * Row echelon form 
 * Inverse matrix
-  * Definition and meaning
-    * $A^{-1}A = I$, $AA^{-1} = I$
-    * Nonsingular system and inverse matrix.
-  * Gauss-Jordon elimination.
-* Transpose and symmetric matrices
-  * Property : $(AB)^T = B^TA^T$, $(A^{-1})^T = (A^T)^{-1}$
-  * $LDU$ factorization of symmetric matrix: $LDL^T$
+  * Find $x$ satisfying $Ax = b$ in terms of $b$.
+  * Definition of inverse matrix
+    * Uniqueness
+    * The left and right inverse coincide.
+    * **Q** Show that if $A$ has a left (or right) inverse, then it has a right (or left) inverse.
+  * ~~Gauss-Jordon elimination.~~
+* $LU$ (and $LDU$) decomposition.
+  * $LU$ decompoisition for $A = \begin{bmatrix} 2 & 1 & 1 \\ 4 & -6 & 0 \\ -2 & 7 & 2 \end{bmatrix}$.
+  * ~~Permutation~~
+    * ~~Example:~~
+      $$A = \begin{bmatrix} 1 & 1 & 1 \\ 1 & 1 & 3 \\ 2 & 5 & 8 \end{bmatrix}$$
+    * ~~**Q** Show that if $A$ is nonsingular, then there exists a permutation matrix $P$ such that $PA=LU$.~~
+  * ~~Uniqueness: if $A = L_1DU_1 = L_2DU_2$, then $L_1 = L_2$ and $U_1 = U_2$.~~
+
+* ~~Transpose and symmetric matrices~~
+  * ~~Property : $(AB)^T = B^TA^T$, $(A^{-1})^T = (A^T)^{-1}$~~
+  * ~~$LDU$ factorization of symmetric matrix: $LDL^T$~~
 
 ### Timeline
 
@@ -88,3 +96,15 @@
 * (10 ~ 55 min) Lecture on contents (English)
 * (55 ~ 75 min) Discussion (Korean)
 
+## Recitation 01 (19/2/28)
+
+### Contents
+
+* [Course GitHub](https://github.com/HyosangKang/LinearAlgebra)
+* How to read homework file.
+  * Encode latex equation using MathJax (need chrome extension)
+  * Read from Jupyter Notebook files directly from GitHub.
+* Python, Jupyter Notebook
+  * Install Anaconda or equivalent module.
+  * Use [Colab](https://colab.research.google.com) for online Jupyter Notebook environment
+* Introduction to Python
