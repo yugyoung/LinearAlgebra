@@ -76,7 +76,7 @@
     * Uniqueness
     * The left and right inverse coincide.
     * **Q** Show that if $A$ has a left (or right) inverse, then it has a right (or left) inverse.
-  * ~~Gauss-Jordon elimination.~~
+  * ~~Gauss-Jordan elimination.~~
 * $LU$ (and $LDU$) decomposition.
   * $LU$ decompoisition for $A = \begin{bmatrix} 2 & 1 & 1 \\ 4 & -6 & 0 \\ -2 & 7 & 2 \end{bmatrix}$.
   * ~~Permutation~~

@@ -22,7 +22,7 @@
 * LU decompoisition
   * $LA = U, A = L^{-1}U = \bar L U$
   * Example: 
-    $$A = \begin{bmatrix} 1 & 1 & 1 \\ 1 & 1 & 3 \\ 2 & 5 & 8 \end{bmatrix}$$
+    $$A = \begin{bmatrix} 1 & 1 & 1 \\ 1 & 1 & 3 \\ 2 & 5 & 8 \end{bmatrix} = \begin{bmatrix} 1 & & \\ 2 & 1 & \\ -1 & -1 & 1 \end{bmatrix}\begin{bmatrix} 2 & 1 & 1 \\ 0 & -8 & -2 \\ 0 & 0 & 1 \end{bmatrix}$$
     * Permutation matrices
     * **Q** Let $A$ be a nonsingular matrix and $P$ be the multiple of all permutation matrices during the reduction of $A$ to row echelon form (REF). Show that $PA$ can be decomposed to $LU$.
   * LDU decomposition
